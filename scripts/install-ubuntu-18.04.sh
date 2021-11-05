@@ -27,7 +27,7 @@ install_packages()
 
     # Install desired packages
     report_status "Installing packages..."
-    sudo apt-get install ${PKGLIST}
+    sudo apt-get install --yes ${PKGLIST}
 }
 
 # Step 2: Create python virtual environment
